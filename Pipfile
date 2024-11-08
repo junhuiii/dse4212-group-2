@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 scikeras = "*"
+statsmodels = "*"
+pandas = "*"
+matplotlib = "*"
+tensorflow = "*"
 
 [dev-packages]
 
