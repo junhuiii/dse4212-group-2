@@ -17,6 +17,7 @@ seaborn = "*"
 nbformat = "*"
 darts = "*"
 optuna = "*"
+tvdatafeed = {git = "https://github.com/rongardF/tvdatafeed.git"}
 
 [dev-packages]
 

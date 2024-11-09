@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "172bc8ec78a104e3201c659282c0ca7cfed7dfe361a624c893dcca5e45f681ab"
+            "sha256": "4dee3ffcb066d91c9a272a14d6e635b07cf5a13ed57050442ef7bfc708ebc6c1"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -189,7 +189,7 @@
                 "sha256:922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8",
                 "sha256:bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9"
             ],
-            "markers": "sys_platform == 'linux' or sys_platform == 'win32'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==2024.8.30"
         },
         "charset-normalizer": {
@@ -300,7 +300,7 @@
                 "sha256:fe9f97feb71aa9896b81973a7bbada8c49501dc73e58a10fcef6663af95e5079",
                 "sha256:ffc519621dce0c767e96b9c53f09c5d215578e10b02c285809f76509a3931482"
             ],
-            "markers": "sys_platform == 'linux' or sys_platform == 'win32'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==3.4.0"
         },
         "cloudpickle": {
@@ -978,7 +978,7 @@
                 "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9",
                 "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3"
             ],
-            "markers": "sys_platform == 'linux' or sys_platform == 'win32'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==3.10"
         },
         "ipykernel": {
@@ -2388,7 +2388,7 @@
                 "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760",
                 "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6"
             ],
-            "markers": "sys_platform == 'linux' or sys_platform == 'win32'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==2.32.3"
         },
         "rich": {
@@ -2589,7 +2589,7 @@
                 "sha256:f2504966861356aa38616760c0f66568e535562374995367b4e69c7143cf6bcd",
                 "sha256:fba5dd4d766e97be1b1681d98712680ae8f2f26d7881245f2ce9e40714f1a686"
             ],
-            "markers": "sys_platform == 'linux' or sys_platform == 'win32'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==75.3.0"
         },
         "shap": {
@@ -2628,7 +2628,7 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "sys_platform == 'linux' or sys_platform == 'win32'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==1.16.0"
         },
         "slicer": {
@@ -2966,6 +2966,10 @@
             "markers": "python_version >= '3.8'",
             "version": "==0.9.8"
         },
+        "tvdatafeed": {
+            "git": "https://github.com/rongardF/tvdatafeed.git",
+            "ref": "e6f6aaa7de439ac6e454d9b26d2760ded8dc4923"
+        },
         "typing-extensions": {
             "hashes": [
                 "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d",
@@ -3004,6 +3008,14 @@
                 "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"
             ],
             "version": "==0.2.13"
+        },
+        "websocket-client": {
+            "hashes": [
+                "sha256:17b44cc997f5c498e809b22cdf2d9c7a9e71c02c8cc2b6c56e7c2d1239bfa526",
+                "sha256:3239df9f44da632f96012472805d40a23281a991027ce11d2f45a6f24ac4c3da"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==1.8.0"
         },
         "werkzeug": {
             "hashes": [
