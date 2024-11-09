@@ -1,7 +1,6 @@
 # DSE4212 Group 2: Oil and Gas Stock Price Prediction
 This repository contains our codes for the DSE4212 Group Project in AY 24/25 Semester 1.
 
-# Project Introduction
 # Project Overview
 
 Stock price prediction remains a challenging task in the field of financial forecasting. The inherent volatility and noise in the stock market make it difficult to accurately predict future price movements. Traditional approaches such as fundamental analysis and technical analysis have been widely used, but often fall short in capturing the intricate and nonlinear patterns influencing stock prices, particularly in highly volatile markets such as oil and gas.
@@ -57,27 +56,46 @@ By evaluating the performance of these models against a naive baseline (using th
 │   └── transformer
 │       └── transformer.ipynb
 ```
-## Setup
+# Project Setup
 
-1. Install [pipenv](https://pypi.org/project/pipenv/):
+1. Clone this repository to your local machine:
 
-   ```shell
-   pip install pipenv
-   ```
+    ```shell
+    git clone https://github.com/yourusername/yourrepository.git
+    cd yourrepository
+    ```
 
-2. Create a virtual environment and install dependencies:
+2. Navigate to the `/data` folder and follow the instructions in the `README.md` located there to properly set up the data directories. The `data` folder should contain the following subdirectories:
 
-   ```shell
-   pipenv install --dev
-   ```
+   - `processed-data/`
+   - `raw-data/`
+   - `results/`
 
-3. Adding dependencies:
+3. You can access the necessary data files through this [Google Drive link](#). Download the relevant files and place them in the appropriate subdirectories.
 
-   If you need to add a new dependency, use the following command:
+4. Navigate to the `data` directory:
 
-   ```shell
-   pipenv install <package-name>
-   ```
+    ```shell
+    cd data
+    ```
+
+5. Install `pipenv` if it's not already installed:
+
+    ```shell
+    pip install pipenv
+    ```
+
+6. Create a virtual environment and install all necessary dependencies:
+
+    ```shell
+    pipenv install --dev
+    ```
+
+7. If you need to add a new package or dependency, use the following command:
+
+    ```shell
+    pipenv install <package-name>
+    ```
 
 ## Help Page for installations
 
