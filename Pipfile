@@ -11,6 +11,10 @@ matplotlib = "*"
 tensorflow = { markers = "sys_platform == 'linux' or sys_platform == 'win32'"}
 tensorflow-macos = { markers = "sys_platform == 'darwin'"}
 mplfinance = "*"
+plotly = "*"
+ta-lib = "*"
+ipykernel = "*"
+seaborn = "*"
 
 [dev-packages]
 
