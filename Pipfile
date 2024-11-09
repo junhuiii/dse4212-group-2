@@ -15,6 +15,7 @@ plotly = "*"
 ta-lib = "*"
 ipykernel = "*"
 seaborn = "*"
+nbformat = "*"
 
 [dev-packages]
 
