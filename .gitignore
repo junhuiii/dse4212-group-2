@@ -2,3 +2,5 @@
 /data/processed-data/
 /data/raw-data/
 /data/results/
+__pycache__
+.DS_Store
