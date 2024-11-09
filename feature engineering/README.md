@@ -1,6 +1,6 @@
 # Set up
 1. Create a `raw-data` folder in the `data` folder
-2. download the data from this [link](https://drive.google.com/drive/folders/1d-Bf1j5qPYXLMhgUccD4YxoULgMxs2-r?usp=drive_link)
+2. download the data from this [link](https://drive.google.com/drive/folders/1lgnXAPzCs-zCzhWVeugy_N3AHvRELp8E?usp=drive_link)
 3. Upload the files to the `raw-data` folder
 4. Set up your environment and connect to the correct kernel in your notebook
 
