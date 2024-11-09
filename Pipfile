@@ -8,8 +8,10 @@ scikeras = "*"
 statsmodels = "*"
 pandas = "*"
 matplotlib = "*"
-tensorflow = {version = "*", markers = "sys_platform == 'linux' or sys_platform == 'win32'"}
-tensorflow-macos = {version = "*", markers = "sys_platform == 'darwin'"}
+tensorflow = { markers = "sys_platform == 'linux' or sys_platform == 'win32'"}
+tensorflow-macos = { markers = "sys_platform == 'darwin'"}
+mplfinance = "*"
+
 [dev-packages]
 
 [requires]
