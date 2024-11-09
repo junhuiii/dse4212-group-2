@@ -1,5 +1,21 @@
-# dse4212-group-2
+# DSE4212 Group 2: Oil and Gas Stock Price Prediction
 This repository contains our codes for the DSE4212 Group Project in AY 24/25 Semester 1.
+
+# Project Introduction
+# Project Overview
+
+Stock price prediction remains a challenging task in the field of financial forecasting. The inherent volatility and noise in the stock market make it difficult to accurately predict future price movements. Traditional approaches such as fundamental analysis and technical analysis have been widely used, but often fall short in capturing the intricate and nonlinear patterns influencing stock prices, particularly in highly volatile markets such as oil and gas.
+
+To address these limitations, researchers have explored various statistical and machine learning techniques. Time series analysis methods, such as AutoRegressive Integrated Moving Average (ARIMA), have been widely employed to model and forecast time series data. In recent years, machine learning techniques have emerged as a powerful tool for stock price prediction, with Neural Networks (NN) like Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks proving particularly effective for handling time series data.
+
+This project aims to compare the performance of statistical and machine learning techniques on predicting closing prices for oil and gas stocks. We explore five models:
+- **Seasonal Auto-Regressive Integrated Moving Average (SARIMA)**
+- **Autoregressive Distributed Lag (ARDL)**
+- **Long Short-Term Memory (LSTM)**
+- **Transformer**
+- **Temporal Fusion Transformer (TFT)**
+
+By evaluating the performance of these models against a naive baseline (using the previous day's closing price as the prediction), we aim to identify the most effective approach for predicting future price movements in the volatile oil and gas market.
 
 ## Repository Structure
 ```
